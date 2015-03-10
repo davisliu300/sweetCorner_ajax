@@ -1,0 +1,258 @@
+body{
+	width: 1000px;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.topHeader{
+	background-image: url("../img/header.png");
+	background-repeat: no-repeat;
+	height: 90px;
+}
+
+
+nav {
+	position: relative;
+}
+
+nav ul{
+	position: relative;
+	text-align: right; 
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 35px;
+	text-transform: uppercase;
+}
+
+nav ul li a {
+	text-decoration: none;
+}
+
+nav ul li a:link {
+	color: brown;
+}
+nav ul li a:visited{
+	color: green;
+}
+nav ul li a:hover{
+	color: blue;
+}
+nav ul li a:active{
+	color: red;
+}
+
+
+.logo {
+	display: block;
+	margin: 0 auto;
+}
+
+.logoText{
+	text-align: center;	
+	font-family: 'Dancing Script';
+	font-weight: 400;
+	font-size: 28px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.sectionBar{
+	height: 24px;
+	width: 100%;
+	background-color: #754b23;
+}
+
+.text_contents{
+	width: 68%;
+	padding : 5px 30px;
+	display: table-cell;
+}
+
+.img_contents{ 
+	background-image: url("../img/strips2.png");
+	width: 30%;
+	display: table-cell;	
+	margin-top: 1px;
+	position: relative;
+}
+
+#img_mid_none_home{
+	width: 15%;
+	display: table-cell;
+	position: relative;
+	top: 80px;
+	left: 10px;
+
+}
+
+#img_contents_none_home{
+	background-image: url("../img/strips1.png");
+	display: table-cell;
+	width: 15%;
+}
+
+#dotBox{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+#dotBox_none_home{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.bottomImg{
+	background-image: url("../img/cupcakes.png");
+	height: 300px;
+}
+#bottome_aboutus{
+	background-image: url("../img/box1.png");
+	height: 300px;
+	margin-top: 30px;
+}
+
+#bottome_services{
+	background-image: url("../img/box2.png");
+	height: 300px;
+	margin-top: 30px;
+}
+
+.text_contents_main{
+	width: 45%;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.text_contents_contact p{
+	text-align: justify;
+}
+
+
+.text_contents_contact a{
+	text-decoration: none;
+	color: #06b4af;
+}
+
+#img_contact_mid{
+	position: relative;  
+	height: 120px;
+}
+
+#dotBox_contact{
+	position: absolute;
+	right: 25%;
+}
+
+.day, .hours{
+	text-align: center;
+	weight: 200;
+	font-size: 1.2em;
+	margin: 5px;
+	background-color: #f6ede6;
+	padding: 5px;
+}
+
+.day{
+	width: 152px;
+	height: 35px;
+}
+
+.hours{
+	width: 218px;
+	height: 35px;
+
+}
+
+.contactFormDiv{
+	width: 45%;
+	display: inline-block;
+	float: right;
+}
+
+input::-webkit-input-placeholder{
+	color: #754b23;
+}
+
+textarea::-webkit-input-placeholder{
+	color: #754b23;
+}
+
+input,button, textarea{
+	width: 310px;
+	height: 35px;
+	margin-top: 5px;
+	padding-left: 5px;
+	border: none;
+}
+
+
+input[name=name]{
+	background-color: #e86b35;
+}
+
+input[name=email]{
+	background-color: #f6b53e;
+}
+
+input[name=phone]{
+	background-color: #06b4af;
+}
+
+
+input[name=subject]{
+	background-color: #e86b35;
+}
+
+
+textarea{
+	height: 115px;
+	background-color: #f6b53e;
+}
+button{
+	display: inline-block;
+	width: 155px;
+	margin-left: 160px;
+	background-color: #06b4af;
+	color: white;
+}
+
+
+.contactFormDiv img{
+	margin-top: 50px;
+	margin-left: 100px;
+}
+footer{
+	background-color: #06b4af;
+	height: 80px;
+	width: 100%;
+	color: white;
+	margin-top: 10px;
+}
+#footer_left{
+	display: inline-block;
+	width: 17%;
+	margin: 20px 40px;
+	
+}
+
+#footer_center{
+	display: inline-block;
+	width: 50%;
+}
+
+#footer_right{
+	display: inline-block;
+	width: 17%;
+	text-align: center;
+	height: 50px;
+	vertical-align: middle;
+}
+
+#footer_right img{
+	margin-right: 10px;
+}	
